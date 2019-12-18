@@ -18,7 +18,11 @@ end
 
 def literal_aoh
  array_hashes = []
- array_hashes << DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G
+ array_hashes << DON_G 
+ array_hashes << JOELLE_VD 
+ array_hashes << PAT_M 
+ array_hashes << KATE_G 
+ array_hashes << BRUCE_G
 end
 
 def aoh_lookup(aoh, row, key)
